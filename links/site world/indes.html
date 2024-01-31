@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <title>Responsive Video Slider</title>
+  </head>
+  <body>
+    <section>
+      <div class="bannerVideo" id="slideShow">
+        <video
+          src="Vid/production ID_3942468.mp4"
+          autoplay
+          muted
+          loop
+          class="active"
+        ></video>
+        <video
+          src="Vid/maldivas.mp4"
+          autoplay
+          muted
+          loop
+        ></video>
+        <video
+          src="Vid/pexels-tima-miroshnichenko-5977853.mp4"
+          autoplay
+          muted
+          loop
+        ></video>
+        <video src="Vid/Arc de Triomphe in Paris.mp4"autoplay muted loop></video>
+      </div>
+      <div class="container">
+        <header id="navbar">
+          <a href="#" class="logo">World</a>
+          <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Destination</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </header>
+        <div class="content">
+          <div class="bannerText" id="slideShowText">
+            <div class="active">
+              <h2>Tokyo</h2>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi
+                nesciunt dolores at mollitia! Cumque culpa inventore nihil
+                distinctio, soluta reiciendis iure quam earum minima, labore
+                quis impedit exercitationem corrupti beatae?
+              </p>
+            </div>
+            <div>
+              <h2>Paris</h2>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi
+                nesciunt dolores at mollitia! Cumque culpa inventore nihil
+                distinctio, soluta reiciendis iure quam earum minima, labore
+                quis impedit exercitationem corrupti beatae?
+              </p>
+            </div>
+            <div>
+              <h2>Cairo</h2>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi
+                nesciunt dolores at mollitia! Cumque culpa inventore nihil
+                distinctio, soluta reiciendis iure quam earum minima, labore
+                quis impedit exercitationem corrupti beatae?
+              </p>
+            </div>
+            <div>
+              <h2>Maldives</h2>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi
+                nesciunt dolores at mollitia! Cumque culpa inventore nihil
+                distinctio, soluta reiciendis iure quam earum minima, labore
+                quis impedit exercitationem corrupti beatae?
+              </p>
+            </div>
+          </div>
+        </div>
+        <ul class="sci">
+          <li>
+            <a href="#"><img src="Img/facebook.png" alt="facebook" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="Img/twitter.png" alt="twitterk" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="Img/instagram.png" alt="instagram" /></a>
+          </li>
+        </ul>
+        <ul class="controls">
+          <li onclick="prevSlide();nextSlideText()"><img src="Img/left.png" alt="left" /></li>
+          <li onclick="nextSlide();prevSlideText()"><img src="Img/right.png" alt="right" /></li>
+        </ul>
+      </div>
+    </section>
+  </body>
+
+  <script src="js/slider.js"></script>
+</html>
